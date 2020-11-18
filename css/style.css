@@ -1,0 +1,82 @@
+
+#map {
+  height: 100vh;
+}
+body{
+  background: url("../img/bg7.jpg");
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container{
+  background-color: rgba(255,255,255,80%);
+  margin-bottom: 50px;
+}
+table, th, td {
+  border: 1px solid #CFD3CE;
+  border-collapse: collapse;
+
+}
+th {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+  color: #447AB2;
+}
+td {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding: 15px;
+}
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+h4{
+  font-family: 'Lato', sans-serif;
+}
+p{
+  font-family: 'Lato', sans-serif;
+}
+.bold{
+font-weight: bold;
+}
+table{
+  margin: 20px;
+}
+.box{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 5px;
+}
+iframe{
+  display: block;
+  margin: auto;
+}
+button{
+  text-align: center;
+  margin: auto;
+}
+.btn-info {
+  background-color:#447AB2;
+  border-color: #447AB2;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+.center{
+  text-align: center;
+}
+.caption{
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  color: rgba(0,0,0,50%);
+  margin-top:5px;
+  text-align: center;
+}

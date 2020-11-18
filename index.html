@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Travel Notes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Tab nav -->
+<!-- Credit to W3 School: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_pills_dynamic&stacked=h -->
+<div class="container">
+  <h2 class="center">My Travel Notes</h2>
+  <p class="center">A travel blog to mark places that I have traveled to.</p>
+  <ul class="nav nav-pills">
+    <li class="active"><a data-toggle="pill" href="#home">Map</a></li>
+    <li><a data-toggle="pill" href="#menu1">List</a></li>
+  </ul>
+
+  <div class="tab-content">
+
+ <!-- Tab #1 -->
+    <div id="home" class="tab-pane fade in active">
+      <h3>Map of my footprints</h3>
+
+<!-- Map -->
+      <div id="map"></div>
+
+    </div>
+
+<!-- Tab #2 -->
+    <div id="menu1" class="tab-pane fade">
+      <h3>List of Cities</h3>
+      <table id ="table">
+       <tr>
+        <th>Cities</th>
+        <th>Description</th>
+        <th>Explore</th>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal1">Learn More</button></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal2">Learn More</button></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal3">Learn More</button></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal4">Learn More</button></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal5">Learn More</button></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal6">Learn More</button></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal7">Learn More</button></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal8">Learn More</button></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal9">Learn More</button></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal10">Learn More</button></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal11">Learn More</button></td>
+
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+            <td><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal12">Learn More</button></td>
+       </tr>
+
+      </table>
+
+    </div>
+  </div>
+</div>
+
+
+    <!-- Modal1 -->
+    <div id="myModal1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">New York City</h3>
+      </div>
+      <div class="modal-body">
+        <h4> Why visit New York?</h4>
+        <p>New York has become in recent years, and due to its own excellence, the world&#39;s most important economic and cultural capital. The city&#39;s atmosphere and style of life are unique, difficult to explain in a guide, and they are best discovered by visiting and enjoying it in person.
+          Going to a Musical in Broadway, spending an evening in Times Square, walking over Brooklyn Bridge, enjoying some shopping in Fifth Avenue or feeling like a broker in Wall Street are some of the things that can only be done in New York City.<br><br>
+Today over 50 million tourists visit this place each year. If you want to find out more about NYC, you can read more about its history, discover its five boroughs, find out about Manhattan&#39;s main neighborhoods, its museums and top places to visit in this guide. If you want to save money, don&#39;t miss out on the New York Pass. In addition, you can follow our advice on how to save in New York to get the most out of your vacation.
+</p>
+<a class="ref" href="https://www.introducingnewyork.com/">Reference: Citivatis New York</a>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WLSnrXEtrT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+      </div>
+    </div>
+
+    <!-- Modal2 -->
+    <div id="myModal2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Los Angeles</h3>
+      </div>
+      <div class="modal-body">
+        <h4> Tourist Attractions in Los Angeles I visited</h4>
+        <br>
+        <p>
+          <ul>
+            <li class="bold"> Universal Studios Hollywood</li>
+            <br>
+            Universal Studios Theme Park is known for
+            its mind-blowing rides based on blockbuster movies, but it is also a working movie studio and an attraction everyone can enjoy. The highlight for most people is the ever-changing selection of rides, which range from simulators to roller-coasters. Favorite movie and TV-themed rides and sets include The Wizarding World of Harry Potter, The Walking Dead, The Simpsons, and Transformers.<br><br>
+            <li class="bold"> Griffith Park and Griffith Observatory</li>
+            <br>
+            Griffith Park, in the eastern part of the Santa Monica Mountains, and covering an area of 4,210 acres, is the largest state park in California. It&#39;s home to the Los Angeles Zoo, the Griffith Observatory, a planetarium, a Greek theater, a riding center created for the 1984 Olympic Games, golf courses, tennis courts, hiking trails, and other attractions. Walking trails and scenic drives through the mountains offer views over the city and beyond.
+            <br><br>
+            <li class="bold">Los Angeles County Museum of Art (LACMA)</li>
+            <br>
+            The Los Angeles County Museum of Art lays claim to being the largest art museum in the western United States, with almost 130,000 pieces spanning from antiquity through to modern times. Of particular note are the outstanding collections of Asian, Latin American, and Islamic Art.
+            <br><br>
+
+          </ul>
+        </p>
+<a class="ref" href="https://www.planetware.com/tourist-attractions-/los-angeles-us-ca-la.htm">Reference: Planetware.com</a>
+<hr>
+<img class="box" src="img/la.png" alt="LA">
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal3 -->
+<div id="myModal3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3 class="modal-title">Tokyo</h3>
+  </div>
+  <div class="modal-body">
+    <h4> Shopping at Tokyo</h4>
+    <p>Tokyo is one of the world&#39;s best shopping cities. The shops and the service are world famous. Here are my picks for what and where to buy in Tokyo.</p>
+    <p>
+      <ul>
+      <li>Electronics: <a href="https://trulytokyo.com/shinjuku/">Shinjuku</a>, <a href="https://trulytokyo.com/akihabara-kanda-and-jimbocho/">Akihabara</a></li>
+      <li>Computers: <a href="https://trulytokyo.com/shinjuku/">Shinjuku</a>, <a href="https://trulytokyo.com/akihabara-kanda-and-jimbocho/">Akihabara</a></li>
+      <li>Clothing: <a href="https://trulytokyo.com/shibuya/">Shibuya</a>, <a href="https://trulytokyo.com/harajuku-and-aoyama/">Harajuku</a>, <a href="https://trulytokyo.com/ginza/">Ginza</a></li>
+      <li>Last-Minute Souvenirs: <a href="https://trulytokyo.com/tokyo-station-and-marunouchi/">Tokyo Station Area</a></li>
+      <li>Pop Culture Goods:  <a href="https://trulytokyo.com/akihabara-kanda-and-jimbocho/">Akihabara</a>, <a href="https://trulytokyo.com/harajuku-and-aoyama/">Harajuku</a></li>
+      <li>Japanalia and Handicrafts: <a href="https://trulytokyo.com/harajuku-and-aoyama/">Harajuku</a></li>
+      <li>English-language books: <a href="https://trulytokyo.com/shinjuku/">Shinjuku</a>, <a href="https://trulytokyo.com/tokyo-station-and-marunouchi/">Tokyo Station Area</a></li>
+    </ul>
+  </p>
+<a class="ref" href="https://trulytokyo.com/">Reference: Trulytokyo</a>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hr_TbL5ejuQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Modal4 -->
+<div id="myModal4" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3 class="modal-title">Seoul</h3>
+  </div>
+  <div class="modal-body">
+    <h4> Table Setting of Seoul Cuisine</h4>
+    <p>
+    <ul>
+      <li>A personal bowl of rice, placed in either stainless steel or ceramic based bowl, usually with a cover to keep the rice warm</li>
+      <li>A small, personal bowl of hot soup (depending on the meal)</li>
+      <li>A personal set of chopsticks for eating the side dishes</li>
+      <li>A spoon for rice and soup</li>
+      <li>Various small bowls of shared bite-sized side dishes (banchan)</li>
+      <li>A main dish (meat/stew/soup/seafood)</li>
+    </ul>
+  </p>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cVZheE7mNR4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Modal5 -->
+<div id="myModal5" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3 class="modal-title">Beijing</h3>
+  </div>
+  <div class="modal-body">
+    <h4>Beijing&#39; Landmarks</h4>
+    <br>
+    <p>
+      <ul>
+        <li class="bold">The Great Wall</li>
+        <br>
+        There is no doubt that the Great Wall comes first among the landmarks of Beijing. It is the longest wall in the world, at a length of 21,196 km (13,170 miles). Its construction started during the Warring States Period (770–221 BC) and lasted over 2,300 years.
+        <br><br>
+        <li class="bold">The Forbidden City</li>
+        <br>
+        Built in 1406, the Forbidden City is the largest ancient palatial structure in the world. It covers an area of 720,000 square meters (0.28 sq. miles) with a construction area of about 150,000 square meters (0.06 sq. miles).
+        <br><br>
+        <li class="bold">The Bird’s Nest and the Water Cube</li>
+        <br>
+        Both the Bird’s Nest and the Water Cube were built for the 2008 Summer Olympic Games. You can find them in the Olympic Park. In future, they will be renovated for the 2022 Winter Olympics.
+       <br><br>
+      </ul>
+    </p>
+    <a class="ref" href="https://www.chinahighlights.com/beijing/top-landmarks.htm">Reference: ChinaHilights</a>
+<hr>
+<img class="box" src="img/beijing.png" alt="Beijing">
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal6 Paris -->
+<div id="myModal6" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3 class="modal-title">Paris</h3>
+  </div>
+  <div class="modal-body">
+    <p>Paris, the City of Light, evokes romantic emotions in anyone who has ever visited. This centuries-old city is the most visited city in the world, and for good reason. There is plenty to do in Paris to satisfy travelers of all tastes.
+    </p>
+    <br>
+    <h4>Paris&#39; Landmarks</h4>
+    <p>
+      <ul>
+        <li>The Eiffel Tower</li>
+        <li>The Arc de Triomphe, l’Etoile and the Champs-Elysees</li>
+        <li>Place de la Concorde</li>
+        <li>The Louvre</li>
+        <li>Le Musee d’Orsay</li>
+      </ul>
+      <br>
+    </p>
+    <h4>Notre-Dame de Paris fire</h4>
+    <p>On 15 April 2019, just before 18:20 CEST, a structure fire broke out beneath the roof of Notre-Dame de Paris cathedral in Paris. By the time it was extinguished, the building&#39;s spire collapsed and most of its roof had been destroyed and its upper walls severely damaged.</p>
+    <a class="ref" href="https://www.tripadvisor.com/Travel-g187147-c1207/Paris:France:Introduction.html">Reference: Tripadvisor</a>
+<hr>
+<img class="box" src="img/nd.png" alt="ND">
+<p class="caption">The Notre Dame Cathedral</p>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal7 Rome -->
+<div id="myModal7" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3 class="modal-title">Rome</h3>
+  </div>
+  <div class="modal-body">
+    <h4>Ancient Sights with Modern Style</h4>
+    <p>The sprawling city of Rome remains one of the most significant stops in the world, thanks to its seamless blend of Old World wonders and modern delights. The ruins of the Colosseum, her iconic fountains, lazy wanders through cobblestone streets with gelato in hand: All this and more beckon. Rome is a winding, spectacular city full of places to discover.</p>
+    <h4>Colosseum</h4>
+    <p>Perhaps the best-preserved of the monuments of ancient Rome, this huge marble structure was built to hold more than 50,000 spectators to witness bloody contests of might and the slaughter of wild beasts.</p>
+    <a class="ref" href="https://www.tripadvisor.com/Attraction_Review-g187791-d192285-Reviews-Colosseum-Rome_Lazio.html">Reference: Tripadvisor</a>
+<hr>
+<img class="box" src="img/rome.png" alt="Rome">
+<p class="caption">The Colosseum</p>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal8 Rome -->
+<div id="myModal8" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3 class="modal-title">Sydney</h3>
+  </div>
+  <div class="modal-body">
+    <h4>The University of Sydney</h4>
+    <p>The University of Sydney is one of the world&#39;s leading, comprehensive research and teaching universities. </p>
+    <h4>A rumor of the University</h4>
+    <p>A number of Chinese tourism websites and tour guides are making the false claim, according to news reports, and the gracious quadrangle at Sydney Uni is currently full of selfie-snapping visitors. Though the neo-Gothic sandstone buildings do bear a striking resemblance to Durham Cathedral in the United Kingdom – where the exteriors of Hogwarts were actually filmed – no scenes from the famous films were shot in Australia.</p>
+    <a class="ref" href="https://www.lonelyplanet.com/articles/tourists-sydney-university-hogwarts">Reference: Lonely Planet</a>
+<hr>
+<img class="box" src="img/su.png" alt="The University of Sydney">
+<p class="caption">The University of Sydney</p>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal9 Hong Kong -->
+<div id="myModal9" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3 class="modal-title">Hong Kong</h3>
+  </div>
+  <div class="modal-body">
+    <p>Hong Kong is a special administrative region (SAR) of the People&#39;s Republic of China. Hong Kong has a free market economy in which the prices of goods and services are determined in a free price system.</p>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gQ79GzUXK8o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal10 Shanghai -->
+<div id="myModal10" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3 class="modal-title">Shanghai</h3>
+  </div>
+  <div class="modal-body">
+    <p>Widely regarded as the citadel of China&#39;s modern economy, the city also serves as one of the most important cultural, commercial, financial, industrial and communications centers of China. Shanghai also has one of the world&#39;s busiest ports, and has become the largest cargo port in the world.</p>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AmQVz_letS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal11 Harbin -->
+<div id="myModal11" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3 class="modal-title">Harbin</h3>
+  </div>
+  <div class="modal-body">
+    <p>Harbin is originally a Manchu word meaning "a place for drying fishing nets." It is known for its bitterly cold winters and is often called the "Ice City." Lying on the southern bank of the Songhua River, Harbin is well known for its annual International Ice and Snow Sculpture Festival and its Russian legacy and still plays an important part in Sino-Russian trade today. In the 1920s, the city was considered China&#39;s fashion capital as new designs from Paris and Moscow reached there first before arriving in Shanghai.</p>
+<hr>
+<img class="box" src="img/harbin2.png" alt="Harbin_Ice">
+<p class="caption">The Ice Park of Harbin</p>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal12 Berlin -->
+<div id="myModal12" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3 class="modal-title">Berlin</h3>
+  </div>
+  <div class="modal-body">
+    <h4>Introduction of Berlin</h4>
+    <p>Berlin&#39;s combo of glamour and grit is bound to mesmerise all those keen to explore its vibrant culture, cutting-edge architecture, fabulous food, intense parties and tangible history.</p>
+    <h4> The Landmarks of Berlin</h4>
+    <br>
+    <p class="bold">Brandenburg Gate</p>
+    <p>Located in no-man&#39;s land between East and West Germany during the Cold War, this famous monument, built during the 18th-century reign of Friedrich Wilhelm II, has long been a defining symbol of Berlin and both the city&#39;s division and unification.</p>
+    <hr>
+    <img class="box" src="img/berlin.png" alt="Brandenburg Gate">
+    <p class="caption">The Brandenburg Gate</p>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<!-- Google map -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvzEoc1YgrQXLQAmOo7JU5z3GDW89qvZE&callback=initMap"></script>
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
